@@ -235,7 +235,7 @@
 
             </div>
 
-            <div class="mt-8 bg-green-50/50 rounded-xl p-4 border border-green-100">
+            <div class="mt-4 bg-green-50/50 rounded-xl p-4 border border-green-100 shrink-0">
                 <h4 class="font-bold text-[12px] text-brand-primary uppercase mb-3 tracking-wider">BẮT ĐẦU NGAY</h4>
                 <div class="flex flex-col gap-2 mb-4">
                     <div class="flex items-center gap-2">
@@ -261,5 +261,28 @@
                             d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                     </svg>
                 </button>
+            </div>
+
+            <!-- Sitemap & Socials -->
+            <div class="mt-5 flex items-center justify-between px-1 shrink-0">
+                <div class="flex items-center gap-3 text-brand-gray text-[12px] font-semibold">
+                    <a href="#" class="hover:text-brand-primary transition">Sitemap</a>
+                    <span class="w-1 h-1 rounded-full bg-brand-light"></span>
+                    <a href="#" class="hover:text-brand-primary transition">Giới thiệu</a>
+                </div>
+                <div class="flex items-center gap-2.5">
+                    <!-- Facebook -->
+                    <a href="#" class="text-brand-light hover:text-[#1877F2] transition transform hover:scale-110" title="Facebook">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"></path>
+                        </svg>
+                    </a>
+                    <!-- TikTok -->
+                    <a href="#" class="text-brand-light hover:text-black transition transform hover:scale-110" title="TikTok">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.01.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.12-3.44-3.13-3.72-5.38-.28-2.31.5-4.72 2.1-6.42 1.58-1.67 3.93-2.5 6.22-2.22.02 1.34.01 2.68.01 4.02-1.07-.15-2.2.04-3.13.58-.87.5-1.48 1.34-1.69 2.33-.21.99-.07 2.05.44 2.91.56.92 1.57 1.51 2.66 1.61 1.05.08 2.13-.19 2.96-.82.88-.67 1.4-1.74 1.46-2.86.03-4.73.02-9.45.02-14.18z"></path>
+                        </svg>
+                    </a>
+                </div>
             </div>
         </aside>
