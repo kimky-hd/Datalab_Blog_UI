@@ -29,22 +29,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (header && content && icon) {
             header.addEventListener('click', () => {
-                // Check if currently open
-                const isOpen = !content.classList.contains('hidden');
-
-                // Close all
-                accordionItems.forEach(otherItem => {
-                    const otherContent = otherItem.querySelector('.accordion-content');
-                    const otherIcon = otherItem.querySelector('.accordion-icon');
-                    if (otherContent && otherIcon) {
-                        otherContent.classList.add('hidden');
-                        otherIcon.classList.remove('rotate-180');
-                    }
-                });
-
-                // If it was not open, open it
-                if (!isOpen) {
-                    content.classList.remove('hidden');
+                // Toggle current content
+                content.classList.toggle('hidden');
+                
+                // Toggle icon rotation
+                if (content.classList.contains('hidden')) {
+                    icon.classList.remove('rotate-180');
+                } else {
                     icon.classList.add('rotate-180');
                 }
             });
