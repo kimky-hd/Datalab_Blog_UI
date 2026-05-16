@@ -1,0 +1,46 @@
+/* Custom Scrollbar for Sidebar */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #E5E7EB;
+    border-radius: 4px;
+}
+
+.custom-scrollbar:hover::-webkit-scrollbar-thumb {
+    background: #D1D5DB;
+}
+
+/* Soft Shadows for Dynamic Islands */
+.shadow-island {
+    box-shadow: 0 10px 40px -10px rgba(26, 115, 50, 0.15);
+}
+
+.hover-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 35px -5px rgba(26, 115, 50, 0.12);
+}
+
+/* Wave Animations */
+@keyframes wave-move {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-wave-slow {
+    animation: wave-move 15s linear infinite;
+}
+
+.animate-wave-fast {
+    animation: wave-move 8s linear infinite;
+}
