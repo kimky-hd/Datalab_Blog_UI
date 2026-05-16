@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  datalab-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: datalab-blog-ui:latest
+    container_name: datalab_blog_ui_container
+    ports:
+      - "8080:8080"
+    restart: always
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
