@@ -109,7 +109,7 @@
             
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 <!-- App: Bài viết -->
-                <a href="#" class="fiori-tile bg-white border border-brand-border rounded-xl p-5 flex flex-col justify-between min-h-[160px] shadow-fiori cursor-pointer relative group overflow-hidden">
+                <a href="admin-blog-list.jsp" class="fiori-tile bg-white border border-brand-border rounded-xl p-5 flex flex-col justify-between min-h-[160px] shadow-fiori cursor-pointer relative group overflow-hidden">
                     <div class="flex justify-between items-start mb-4">
                         <div class="w-10 h-10 rounded-lg bg-green-50 flex items-center justify-center text-brand-primary">
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path></svg>
