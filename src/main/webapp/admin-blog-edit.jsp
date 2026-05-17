@@ -120,6 +120,13 @@
                     <input type="text" placeholder="Nhập tiêu đề bài viết..." class="w-full text-[28px] font-extrabold text-brand-text placeholder-gray-300 outline-none bg-transparent">
                 </div>
 
+                <!-- Summary Input -->
+                <div class="bg-white p-5 rounded-xl shadow-sm border border-brand-border">
+                    <label class="block text-[13px] font-bold text-brand-text mb-2">Tóm tắt bài viết</label>
+                    <textarea placeholder="Nhập đoạn tóm tắt ngắn gọn xuất hiện trên thẻ bài viết..." class="w-full text-[14px] text-brand-text placeholder-gray-400 outline-none bg-transparent resize-none h-20" maxlength="300"></textarea>
+                    <div class="text-right text-[11px] text-brand-gray mt-1">Tối đa 300 ký tự</div>
+                </div>
+
                 <!-- Rich Text Editor -->
                 <div class="shadow-sm rounded-xl bg-white">
                     <div id="toolbar-container">
@@ -150,6 +157,19 @@
                     </div>
                     <div id="editor">
                         <p><br></p>
+                    </div>
+                </div>
+
+                <!-- Reference Documents Upload -->
+                <div class="bg-white p-5 rounded-xl shadow-sm border border-brand-border">
+                    <h3 class="text-[15px] font-bold text-brand-text mb-4 border-b border-brand-border pb-2">Tải lên tài liệu tham khảo</h3>
+                    <div class="border-2 border-dashed border-brand-border rounded-xl p-8 flex flex-col items-center justify-center text-center hover:bg-gray-50 hover:border-brand-primary transition cursor-pointer group">
+                        <div class="w-12 h-12 bg-sky-50 rounded-full flex items-center justify-center text-sky-500 mb-3 group-hover:scale-110 transition-transform">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path></svg>
+                        </div>
+                        <p class="text-[14px] font-medium text-brand-text mb-1">Kéo thả tài liệu vào đây</p>
+                        <p class="text-[12px] text-brand-gray mb-4">Hỗ trợ PDF, DOCX, XLSX, SAV (Tối đa 20MB)</p>
+                        <button class="px-4 py-2 bg-white border border-brand-border text-brand-text text-[13px] font-bold rounded hover:border-brand-primary hover:text-brand-primary transition">Chọn File</button>
                     </div>
                 </div>
             </div>
@@ -207,6 +227,27 @@
                             <input type="checkbox" class="w-4 h-4 text-brand-primary rounded border-brand-border focus:ring-brand-primary cursor-pointer">
                             <span class="text-[13px] text-brand-text group-hover:text-brand-primary transition">SmartPLS</span>
                         </label>
+                    </div>
+                </div>
+
+                <!-- Hashtags Card -->
+                <div class="bg-white rounded-xl shadow-sm border border-brand-border p-5">
+                    <h3 class="text-[15px] font-bold text-brand-text mb-4 border-b border-brand-border pb-2">Từ khóa (Hashtags)</h3>
+                    
+                    <div class="flex items-center gap-2 border border-brand-border rounded-lg p-2 focus-within:border-brand-primary transition">
+                        <svg class="w-4 h-4 text-brand-light" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path></svg>
+                        <input type="text" placeholder="Thêm tag (nhấn Enter)..." class="w-full bg-transparent text-[13px] outline-none placeholder-brand-light">
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-2 mt-3">
+                        <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-brand-bg text-[12px] text-brand-text border border-brand-border hover:border-red-300 transition group cursor-pointer">
+                            #NghienCuu
+                            <svg class="w-3 h-3 text-brand-gray group-hover:text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                        </span>
+                        <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-brand-bg text-[12px] text-brand-text border border-brand-border hover:border-red-300 transition group cursor-pointer">
+                            #SPSS
+                            <svg class="w-3 h-3 text-brand-gray group-hover:text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                        </span>
                     </div>
                 </div>
 
