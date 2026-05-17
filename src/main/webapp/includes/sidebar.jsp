@@ -121,7 +121,31 @@
                     </div>
                 </div>
 
-                <!-- 6. PHÂN TÍCH DỮ LIỆU -->
+                <!-- 6. THU THẬP DỮ LIỆU -->
+                <div class="accordion-item">
+                    <div class="accordion-header flex items-center justify-between px-3 py-2 text-brand-gray hover:text-brand-primary hover:bg-green-50/50 rounded-lg transition group cursor-pointer">
+                        <div class="flex items-center gap-3">
+                            <svg class="w-4 h-4 text-brand-light group-hover:text-brand-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2-8H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V9l-4-4z"></path>
+                            </svg>
+                            <span class="font-semibold text-[13px]">Thu thập dữ liệu</span>
+                        </div>
+                        <svg class="w-4 h-4 text-brand-light group-hover:text-brand-primary transition-transform duration-300 transform accordion-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </div>
+                    <div class="accordion-content hidden px-2 pt-1 pb-2">
+                        <ul class="flex flex-col gap-1 border-l-2 border-green-200 ml-5 pl-4">
+                            <li><a href="#" class="block text-[12px] text-brand-gray hover:text-brand-primary py-1.5 transition">Thiết kế biểu mẫu khảo sát</a></li>
+                            <li><a href="#" class="block text-[12px] text-brand-gray hover:text-brand-primary py-1.5 transition">Thu thập dữ liệu sơ cấp</a></li>
+                            <li><a href="#" class="block text-[12px] text-brand-gray hover:text-brand-primary py-1.5 transition">Khai thác dữ liệu thứ cấp</a></li>
+                            <li><a href="#" class="block text-[12px] text-brand-gray hover:text-brand-primary py-1.5 transition">Phỏng vấn & Thảo luận nhóm</a></li>
+                            <li><a href="#" class="block text-[12px] text-brand-gray hover:text-brand-primary py-1.5 transition">Làm sạch & Mã hóa dữ liệu</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 7. PHÂN TÍCH DỮ LIỆU -->
                 <div class="accordion-item">
                     <div class="accordion-header flex items-center justify-between px-3 py-2 text-brand-gray hover:text-brand-primary hover:bg-green-50/50 rounded-lg transition group cursor-pointer">
                         <div class="flex items-center gap-3">
@@ -143,7 +167,7 @@
                     </div>
                 </div>
 
-                <!-- 7. VIẾT HỌC THUẬT -->
+                <!-- 8. VIẾT HỌC THUẬT -->
                 <div class="accordion-item">
                     <div class="accordion-header flex items-center justify-between px-3 py-2 text-brand-gray hover:text-brand-primary hover:bg-green-50/50 rounded-lg transition group cursor-pointer">
                         <div class="flex items-center gap-3">
@@ -166,7 +190,7 @@
                     </div>
                 </div>
 
-                <!-- 8. AI TRONG NGHIÊN CỨU -->
+                <!-- 9. AI TRONG NGHIÊN CỨU -->
                 <div class="accordion-item">
                     <div class="accordion-header flex items-center justify-between px-3 py-2 text-brand-gray hover:text-brand-primary hover:bg-green-50/50 rounded-lg transition group cursor-pointer">
                         <div class="flex items-center gap-3">
@@ -190,7 +214,7 @@
                     </div>
                 </div>
 
-                <!-- 9. TÀI NGUYÊN -->
+                <!-- 10. TÀI NGUYÊN -->
                 <div class="accordion-item">
                     <div class="accordion-header flex items-center justify-between px-3 py-2 text-brand-gray hover:text-brand-primary hover:bg-green-50/50 rounded-lg transition group cursor-pointer">
                         <div class="flex items-center gap-3">
@@ -213,7 +237,7 @@
                     </div>
                 </div>
 
-                <!-- 10. CASE STUDY & VÍ DỤ -->
+                <!-- 11. CASE STUDY & VÍ DỤ -->
                 <div class="accordion-item">
                     <div class="accordion-header flex items-center justify-between px-3 py-2 text-brand-gray hover:text-brand-primary hover:bg-green-50/50 rounded-lg transition group cursor-pointer">
                         <div class="flex items-center gap-3">

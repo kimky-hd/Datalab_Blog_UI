@@ -64,6 +64,9 @@
                     class="text-[14px] font-semibold text-brand-gray hover:text-brand-primary transition-all pb-1 border-b-2 border-transparent hover:border-brand-primary">Phương
                     pháp nghiên cứu</a>
                 <a href="#"
+                    class="text-[14px] font-semibold text-brand-gray hover:text-brand-primary transition-all pb-1 border-b-2 border-transparent hover:border-brand-primary">Thu thập
+                    dữ liệu</a>
+                <a href="#"
                     class="text-[14px] font-semibold text-brand-gray hover:text-brand-primary transition-all pb-1 border-b-2 border-transparent hover:border-brand-primary">Phân
                     tích
                     dữ liệu</a>
@@ -267,7 +270,7 @@
                                         </div>
                                     </div>
                                     <div class="flex flex-col gap-1">
-                                        <span class="text-[10px] font-extrabold text-brand-primary uppercase tracking-[0.2em]">Bước 05</span>
+                                        <span class="text-[10px] font-extrabold text-brand-primary uppercase tracking-[0.2em]">Bước 08</span>
                                         <h3 class="text-[14px] font-bold text-brand-text">Hoàn thiện</h3>
                                     </div>
                                     <!-- Connector -->
@@ -285,7 +288,7 @@
                                         </div>
                                     </div>
                                     <div class="flex flex-col gap-1">
-                                        <span class="text-[10px] font-extrabold text-brand-primary uppercase tracking-[0.2em]">Bước 06</span>
+                                        <span class="text-[10px] font-extrabold text-brand-primary uppercase tracking-[0.2em]">Bước 07</span>
                                         <h3 class="text-[14px] font-bold text-brand-text">Viết kết quả</h3>
                                     </div>
                                     <!-- Connector -->
@@ -303,7 +306,7 @@
                                         </div>
                                     </div>
                                     <div class="flex flex-col gap-1">
-                                        <span class="text-[10px] font-extrabold text-brand-primary uppercase tracking-[0.2em]">Bước 07</span>
+                                        <span class="text-[10px] font-extrabold text-brand-primary uppercase tracking-[0.2em]">Bước 06</span>
                                         <h3 class="text-[14px] font-bold text-brand-text">Phân tích dữ liệu</h3>
                                     </div>
                                     <!-- Connector -->
@@ -321,7 +324,7 @@
                                         </div>
                                     </div>
                                     <div class="flex flex-col gap-1">
-                                        <span class="text-[10px] font-extrabold text-brand-primary uppercase tracking-[0.2em]">Bước 08</span>
+                                        <span class="text-[10px] font-extrabold text-brand-primary uppercase tracking-[0.2em]">Bước 05</span>
                                         <h3 class="text-[14px] font-bold text-brand-text">Thu thập dữ liệu</h3>
                                     </div>
                                 </div>
