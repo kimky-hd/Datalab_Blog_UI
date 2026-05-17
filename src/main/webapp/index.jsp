@@ -492,7 +492,7 @@
                             <!-- We will generate 6 cards to match the layout -->
 
                             <!-- Loop Item -->
-                            <article
+                            <article onclick="window.location.href='blog-detail.jsp'"
                                 class="bg-white rounded-2xl p-4 shadow-soft border border-brand-border/50 hover-card group cursor-pointer">
                                 <div
                                     class="bg-gradient-to-r from-blue-100 to-green-100 h-32 rounded-xl flex flex-col items-center justify-center mb-4 relative overflow-hidden">
@@ -528,7 +528,7 @@
                             </article>
 
                             <!-- Loop Item -->
-                            <article
+                            <article onclick="window.location.href='blog-detail.jsp'"
                                 class="bg-white rounded-2xl p-4 shadow-soft border border-brand-border/50 hover-card group cursor-pointer">
                                 <div
                                     class="bg-gradient-to-r from-blue-100 to-green-100 h-32 rounded-xl flex flex-col items-center justify-center mb-4 relative overflow-hidden">
@@ -564,7 +564,7 @@
                             </article>
 
                             <!-- Loop Item -->
-                            <article
+                            <article onclick="window.location.href='blog-detail.jsp'"
                                 class="bg-white rounded-2xl p-4 shadow-soft border border-brand-border/50 hover-card group cursor-pointer">
                                 <div
                                     class="bg-gradient-to-r from-blue-100 to-green-100 h-32 rounded-xl flex flex-col items-center justify-center mb-4 relative overflow-hidden">
@@ -600,7 +600,7 @@
                             </article>
 
                             <!-- Loop Item -->
-                            <article
+                            <article onclick="window.location.href='blog-detail.jsp'"
                                 class="bg-white rounded-2xl p-4 shadow-soft border border-brand-border/50 hover-card group cursor-pointer">
                                 <div
                                     class="bg-gradient-to-r from-blue-100 to-green-100 h-32 rounded-xl flex flex-col items-center justify-center mb-4 relative overflow-hidden">
@@ -636,7 +636,7 @@
                             </article>
 
                             <!-- Loop Item -->
-                            <article
+                            <article onclick="window.location.href='blog-detail.jsp'"
                                 class="bg-white rounded-2xl p-4 shadow-soft border border-brand-border/50 hover-card group cursor-pointer">
                                 <div
                                     class="bg-gradient-to-r from-blue-100 to-green-100 h-32 rounded-xl flex flex-col items-center justify-center mb-4 relative overflow-hidden">
@@ -672,7 +672,7 @@
                             </article>
 
                             <!-- Loop Item -->
-                            <article
+                            <article onclick="window.location.href='blog-detail.jsp'"
                                 class="bg-white rounded-2xl p-4 shadow-soft border border-brand-border/50 hover-card group cursor-pointer">
                                 <div
                                     class="bg-gradient-to-r from-blue-100 to-green-100 h-32 rounded-xl flex flex-col items-center justify-center mb-4 relative overflow-hidden">
