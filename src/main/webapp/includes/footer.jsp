@@ -20,8 +20,8 @@
         <!-- 5. DYNAMIC ISLAND LIQUID GLASS FOOTER -->
         <div class="px-6 md:px-12 pb-8 relative z-10">
             <footer
-                class="bg-white/40 backdrop-blur-2xl rounded-[2.5rem] py-8 px-10 shadow-island border border-white/40 max-w-[1200px] mx-auto ml-auto mr-auto md:ml-auto md:mr-auto">
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                class="bg-white/40 backdrop-blur-2xl rounded-[2.5rem] py-6 px-6 md:py-8 md:px-10 shadow-island border border-white/40 max-w-[1200px] mx-auto">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
 
                     <div class="md:col-span-1">
                         <a href="#" class="flex items-center gap-2 text-brand-primary mb-5">

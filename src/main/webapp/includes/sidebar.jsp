@@ -1,7 +1,10 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+        <!-- Mobile Sidebar Overlay -->
+        <div id="sidebarOverlay" class="fixed inset-0 bg-brand-text/40 backdrop-blur-sm z-30 hidden lg:hidden transition-opacity opacity-0 pointer-events-none"></div>
+
         <!-- 2. LEFT SIDEBAR -->
-        <aside
-            class="fixed top-[90px] left-6 w-[250px] h-[calc(100vh-114px)] bg-white/90 backdrop-blur-xl border border-white rounded-[2rem] shadow-island overflow-hidden flex flex-col p-6 z-40 custom-scrollbar">
+        <aside id="leftSidebar"
+            class="fixed top-[90px] -left-[300px] lg:left-6 w-[250px] h-[calc(100vh-114px)] bg-white/90 backdrop-blur-xl border border-white rounded-[2rem] shadow-island overflow-hidden flex flex-col p-6 z-40 custom-scrollbar transition-all duration-300">
 
             <!-- Accordion Container -->
             <div class="flex flex-col gap-1 overflow-y-auto flex-1 custom-scrollbar pr-2 mb-4">
@@ -310,3 +313,44 @@
                 </div>
             </div>
         </aside>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+                const leftSidebar = document.getElementById('leftSidebar');
+                const sidebarOverlay = document.getElementById('sidebarOverlay');
+
+                const toggleSidebar = () => {
+                    if (!leftSidebar || !sidebarOverlay) return;
+                    
+                    const isClosed = leftSidebar.classList.contains('-left-[300px]');
+                    if (isClosed) {
+                        // Open sidebar
+                        leftSidebar.classList.remove('-left-[300px]');
+                        leftSidebar.classList.add('left-4');
+                        sidebarOverlay.classList.remove('hidden');
+                        // tiny delay for transition
+                        setTimeout(() => {
+                            sidebarOverlay.classList.remove('opacity-0', 'pointer-events-none');
+                        }, 10);
+                        document.body.style.overflow = 'hidden'; // prevent scrolling
+                    } else {
+                        // Close sidebar
+                        leftSidebar.classList.add('-left-[300px]');
+                        leftSidebar.classList.remove('left-4');
+                        sidebarOverlay.classList.add('opacity-0', 'pointer-events-none');
+                        setTimeout(() => {
+                            sidebarOverlay.classList.add('hidden');
+                        }, 300);
+                        document.body.style.overflow = '';
+                    }
+                };
+
+                if (mobileMenuBtn) {
+                    mobileMenuBtn.addEventListener('click', toggleSidebar);
+                }
+                if (sidebarOverlay) {
+                    sidebarOverlay.addEventListener('click', toggleSidebar);
+                }
+            });
+        </script>

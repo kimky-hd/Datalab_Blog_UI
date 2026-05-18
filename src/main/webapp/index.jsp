@@ -54,29 +54,20 @@
         <div class="lg:ml-[290px] pt-[100px] px-6 lg:px-8 lg:pr-10 min-h-screen pb-20 overflow-x-hidden">
 
             <!-- Simplified Navigation Menu -->
-            <nav class="max-w-[1400px] w-full mx-auto mb-8 lg:mb-10 flex flex-wrap items-center justify-start gap-x-6 lg:gap-x-10 gap-y-4 px-2">
-                <a href="#" class="text-[14px] font-bold text-brand-primary border-b-2 border-brand-primary pb-1">Trang
-                    chủ</a>
+            <nav class="max-w-[1400px] w-full mx-auto mb-8 lg:mb-10 flex overflow-x-auto whitespace-nowrap custom-scrollbar items-center justify-start gap-x-6 lg:gap-x-10 gap-y-4 px-2 pb-2">
+                <a href="#" class="shrink-0 text-[14px] font-bold text-brand-primary border-b-2 border-brand-primary pb-1">Trang chủ</a>
                 <a href="#"
-                    class="text-[14px] font-semibold text-brand-gray hover:text-brand-primary transition-all pb-1 border-b-2 border-transparent hover:border-brand-primary">Lộ
-                    trình học</a>
+                    class="shrink-0 text-[14px] font-semibold text-brand-gray hover:text-brand-primary transition-all pb-1 border-b-2 border-transparent hover:border-brand-primary">Lộ trình học</a>
                 <a href="#"
-                    class="text-[14px] font-semibold text-brand-gray hover:text-brand-primary transition-all pb-1 border-b-2 border-transparent hover:border-brand-primary">Phương
-                    pháp nghiên cứu</a>
+                    class="shrink-0 text-[14px] font-semibold text-brand-gray hover:text-brand-primary transition-all pb-1 border-b-2 border-transparent hover:border-brand-primary">Phương pháp nghiên cứu</a>
                 <a href="#"
-                    class="text-[14px] font-semibold text-brand-gray hover:text-brand-primary transition-all pb-1 border-b-2 border-transparent hover:border-brand-primary">Thu thập
-                    dữ liệu</a>
+                    class="shrink-0 text-[14px] font-semibold text-brand-gray hover:text-brand-primary transition-all pb-1 border-b-2 border-transparent hover:border-brand-primary">Thu thập dữ liệu</a>
                 <a href="#"
-                    class="text-[14px] font-semibold text-brand-gray hover:text-brand-primary transition-all pb-1 border-b-2 border-transparent hover:border-brand-primary">Phân
-                    tích
-                    dữ liệu</a>
+                    class="shrink-0 text-[14px] font-semibold text-brand-gray hover:text-brand-primary transition-all pb-1 border-b-2 border-transparent hover:border-brand-primary">Phân tích dữ liệu</a>
                 <a href="#"
-                    class="text-[14px] font-semibold text-brand-gray hover:text-brand-primary transition-all pb-1 border-b-2 border-transparent hover:border-brand-primary">Viết
-                    học
-                    thuật</a>
+                    class="shrink-0 text-[14px] font-semibold text-brand-gray hover:text-brand-primary transition-all pb-1 border-b-2 border-transparent hover:border-brand-primary">Viết học thuật</a>
                 <a href="#"
-                    class="text-[14px] font-semibold text-brand-gray hover:text-brand-primary transition-all pb-1 border-b-2 border-transparent hover:border-brand-primary">Tài
-                    nguyên</a>
+                    class="shrink-0 text-[14px] font-semibold text-brand-gray hover:text-brand-primary transition-all pb-1 border-b-2 border-transparent hover:border-brand-primary">Tài nguyên</a>
             </nav>
 
             <!-- Main Area inner wrapper -->
@@ -723,10 +714,10 @@
                 </main>
 
                 <!-- RIGHT COLUMN (Sidebar in Content) -->
-                <aside class="xl:w-[280px] 2xl:w-[320px] w-full shrink-0 flex flex-col lg:flex-row xl:flex-col gap-6">
+                <aside class="hidden xl:flex xl:w-[280px] 2xl:w-[320px] shrink-0 flex-col gap-6">
 
                     <!-- Tài nguyên nổi bật -->
-                    <div class="bg-white rounded-2xl border border-brand-border/50 p-6 shadow-soft flex-1 min-w-[300px]">
+                    <div class="bg-white rounded-2xl border border-brand-border/50 p-6 shadow-soft">
                         <h3 class="text-[16px] font-bold text-brand-text mb-4">Tài nguyên nổi bật</h3>
 
                         <div class="flex flex-col gap-4">
@@ -782,7 +773,7 @@
                     </div>
 
                     <!-- Xem nhiều nhất -->
-                    <div class="bg-white rounded-2xl border border-brand-border/50 p-6 shadow-soft flex-1 min-w-[300px]">
+                    <div class="bg-white rounded-2xl border border-brand-border/50 p-6 shadow-soft">
                         <h3 class="text-[16px] font-bold text-brand-text mb-4">Xem nhiều nhất</h3>
 
                         <div class="flex flex-col gap-4">

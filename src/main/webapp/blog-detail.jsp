@@ -61,11 +61,11 @@
     <jsp:include page="includes/sidebar.jsp" />
 
     <!-- 3. MAIN CONTENT CONTAINER -->
-    <div class="ml-[290px] pt-[100px] pr-8 min-h-screen pb-20">
+    <div class="lg:ml-[290px] pt-[100px] px-6 lg:px-8 lg:pr-10 min-h-screen pb-20 overflow-x-hidden">
 
         <!-- Navigation Menu / Breadcrumbs -->
-        <nav class="max-w-[1200px] mx-auto mb-8 flex items-center gap-2 text-[13px] font-semibold">
-            <a href="index.jsp" class="text-brand-gray hover:text-brand-primary transition">Trang chủ</a>
+        <nav class="max-w-[1200px] mx-auto mb-8 flex flex-wrap items-center gap-2 text-[13px] font-semibold">
+            <a href="index.jsp" class="text-brand-gray hover:text-brand-primary transition shrink-0">Trang chủ</a>
             <svg class="w-4 h-4 text-brand-light" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
             <a href="index.jsp" class="text-brand-gray hover:text-brand-primary transition">Bài đăng mới nhất</a>
             <svg class="w-4 h-4 text-brand-light" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
@@ -172,8 +172,8 @@
                 </article>
 
                 <!-- Tag & Share -->
-                <div class="flex items-center justify-between bg-white rounded-3xl p-6 shadow-soft border border-brand-border/50">
-                    <div class="flex items-center gap-2">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 sm:gap-0 bg-white rounded-3xl p-6 shadow-soft border border-brand-border/50">
+                    <div class="flex flex-wrap items-center gap-2">
                         <span class="font-bold text-[13px] text-brand-text mr-2">Tags:</span>
                         <a href="#" class="px-3 py-1.5 bg-brand-bg rounded-lg text-[12px] font-semibold text-brand-gray hover:text-brand-primary hover:bg-green-50 transition">#AMOS</a>
                         <a href="#" class="px-3 py-1.5 bg-brand-bg rounded-lg text-[12px] font-semibold text-brand-gray hover:text-brand-primary hover:bg-green-50 transition">#SEM</a>
@@ -189,7 +189,7 @@
             </main>
 
             <!-- RIGHT COLUMN (Sidebar in Content) -->
-            <aside class="xl:w-[320px] shrink-0 flex flex-col gap-6">
+            <aside class="hidden xl:flex xl:w-[320px] shrink-0 flex-col gap-6">
 
                 <!-- Tài nguyên nổi bật -->
                 <div class="bg-white rounded-2xl border border-brand-border/50 p-6 shadow-soft">
