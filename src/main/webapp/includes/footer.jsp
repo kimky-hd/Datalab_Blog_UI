@@ -1,6 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
         <!-- 4. BACKGROUND WAVE DECORATION (Dưới cùng trang web) -->
-        <div class="fixed bottom-0 left-0 w-full h-[320px] pointer-events-none z-0 overflow-hidden opacity-40">
+        <div class="wave-bg fixed bottom-0 left-0 w-full h-[320px] overflow-hidden opacity-40" style="z-index: -1;">
             <!-- Seamless Wave 1 (Slow) -->
             <svg class="absolute bottom-0 left-0 w-[200%] h-full animate-wave-slow" viewBox="0 0 2880 320"
                 preserveAspectRatio="none">

@@ -26,6 +26,12 @@
     box-shadow: 0 15px 35px -5px rgba(26, 115, 50, 0.12);
 }
 
+/* Wave Background - Always at the bottom layer, never overlaps content */
+.wave-bg {
+    z-index: -1 !important;
+    pointer-events: none;
+}
+
 /* Wave Animations */
 @keyframes wave-move {
     0% {

@@ -42,7 +42,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
 
-    <body class="text-[13px] antialiased selection:bg-brand-primary selection:text-white relative">
+    <body class="text-[13px] antialiased selection:bg-brand-primary selection:text-white">
 
         <!-- 1. DYNAMIC ISLAND HEADER -->
         <jsp:include page="includes/header.jsp" />
@@ -51,7 +51,7 @@
         <jsp:include page="includes/sidebar.jsp" />
 
         <!-- 3. MAIN CONTENT CONTAINER -->
-        <div class="lg:ml-[290px] pt-[100px] px-6 lg:px-8 lg:pr-10 min-h-screen pb-20 overflow-x-hidden">
+        <div class="lg:ml-[290px] pt-[100px] px-6 lg:px-8 lg:pr-10 min-h-screen pb-20 overflow-x-hidden relative" style="z-index: 1;">
 
             <!-- Simplified Navigation Menu -->
             <nav class="max-w-[1400px] w-full mx-auto mb-8 lg:mb-10 flex overflow-x-auto whitespace-nowrap custom-scrollbar items-center justify-start gap-x-6 lg:gap-x-10 gap-y-4 px-2 pb-2">
