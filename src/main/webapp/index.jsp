@@ -51,10 +51,10 @@
         <jsp:include page="includes/sidebar.jsp" />
 
         <!-- 3. MAIN CONTENT CONTAINER -->
-        <div class="ml-[290px] pt-[100px] pr-8 min-h-screen pb-20">
+        <div class="lg:ml-[290px] pt-[100px] px-6 lg:px-8 lg:pr-10 min-h-screen pb-20 overflow-x-hidden">
 
             <!-- Simplified Navigation Menu -->
-            <nav class="max-w-[1200px] mx-auto mb-10 flex flex-wrap items-center justify-start gap-x-10 gap-y-4">
+            <nav class="max-w-[1400px] w-full mx-auto mb-8 lg:mb-10 flex flex-wrap items-center justify-start gap-x-6 lg:gap-x-10 gap-y-4 px-2">
                 <a href="#" class="text-[14px] font-bold text-brand-primary border-b-2 border-brand-primary pb-1">Trang
                     chủ</a>
                 <a href="#"
@@ -80,7 +80,7 @@
             </nav>
 
             <!-- Main Area inner wrapper -->
-            <div class="max-w-[1200px] mx-auto flex flex-col xl:flex-row gap-8">
+            <div class="max-w-[1400px] w-full mx-auto flex flex-col xl:flex-row gap-8">
 
                 <!-- LEFT COLUMN (Content) -->
                 <main class="flex-1 min-w-0 flex flex-col gap-12">
@@ -101,7 +101,7 @@
                             </button>
                         </div>
                         <div
-                            class="w-48 h-48 md:w-64 md:h-64 shrink-0 bg-white rounded-2xl shadow-card overflow-hidden flex items-center justify-center relative">
+                            class="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 xl:w-64 xl:h-64 2xl:w-72 2xl:h-72 shrink-0 bg-white rounded-2xl shadow-card overflow-hidden flex items-center justify-center relative transform transition duration-500 hover:scale-105">
                             <!-- Abstract illustration placeholder matching the image vibe -->
                             <div class="absolute inset-0 bg-emerald-50 opacity-50"></div>
                             <svg class="w-32 h-32 text-brand-primary opacity-80" fill="none" stroke="currentColor"
@@ -187,10 +187,10 @@
                             <div class="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/2 w-64 h-64 bg-green-50/50 rounded-full blur-3xl"></div>
 
                             <!-- Roadmap Grid (S-Curve Flow) -->
-                            <div class="grid grid-cols-2 md:grid-cols-4 gap-y-20 gap-x-10 relative z-10">
+                            <div class="grid grid-cols-2 lg:grid-cols-4 gap-y-16 lg:gap-y-20 gap-x-6 lg:gap-x-10 relative z-10">
                                 
                                 <!-- Step 1 -->
-                                <div class="group flex flex-col items-center text-center relative">
+                                <div class="group flex flex-col items-center text-center relative lg:order-1">
                                     <div class="relative w-20 h-20 mb-5">
                                         <div class="absolute inset-0 bg-green-100 rounded-2xl rotate-6 group-hover:rotate-12 transition-transform duration-500"></div>
                                         <div class="absolute inset-0 bg-white rounded-2xl shadow-sm border border-green-50 flex items-center justify-center transition-transform duration-500 group-hover:-translate-y-2 group-hover:-translate-x-1">
@@ -204,11 +204,11 @@
                                         <h3 class="text-[14px] font-bold text-brand-text">Chọn đề tài</h3>
                                     </div>
                                     <!-- Connector -->
-                                    <div class="hidden md:block absolute top-10 left-[70%] w-full h-px border-t border-dashed border-green-200"></div>
+                                    <div class="hidden lg:block absolute top-10 left-[70%] w-full h-px border-t border-dashed border-green-200"></div>
                                 </div>
 
                                 <!-- Step 2 -->
-                                <div class="group flex flex-col items-center text-center relative">
+                                <div class="group flex flex-col items-center text-center relative lg:order-2">
                                     <div class="relative w-20 h-20 mb-5">
                                         <div class="absolute inset-0 bg-green-100 rounded-2xl -rotate-6 group-hover:-rotate-12 transition-transform duration-500"></div>
                                         <div class="absolute inset-0 bg-white rounded-2xl shadow-sm border border-green-50 flex items-center justify-center transition-transform duration-500 group-hover:-translate-y-2 group-hover:translate-x-1">
@@ -222,11 +222,11 @@
                                         <h3 class="text-[14px] font-bold text-brand-text">Tìm GAP</h3>
                                     </div>
                                     <!-- Connector -->
-                                    <div class="hidden md:block absolute top-10 left-[70%] w-full h-px border-t border-dashed border-green-200"></div>
+                                    <div class="hidden lg:block absolute top-10 left-[70%] w-full h-px border-t border-dashed border-green-200"></div>
                                 </div>
 
                                 <!-- Step 3 -->
-                                <div class="group flex flex-col items-center text-center relative">
+                                <div class="group flex flex-col items-center text-center relative lg:order-3">
                                     <div class="relative w-20 h-20 mb-5">
                                         <div class="absolute inset-0 bg-green-100 rounded-2xl rotate-3 group-hover:rotate-6 transition-transform duration-500"></div>
                                         <div class="absolute inset-0 bg-white rounded-2xl shadow-sm border border-green-50 flex items-center justify-center transition-transform duration-500 group-hover:-translate-y-2">
@@ -240,11 +240,11 @@
                                         <h3 class="text-[14px] font-bold text-brand-text">Xây dựng mô hình</h3>
                                     </div>
                                     <!-- Connector -->
-                                    <div class="hidden md:block absolute top-10 left-[70%] w-full h-px border-t border-dashed border-green-200"></div>
+                                    <div class="hidden lg:block absolute top-10 left-[70%] w-full h-px border-t border-dashed border-green-200"></div>
                                 </div>
 
                                 <!-- Step 4 -->
-                                <div class="group flex flex-col items-center text-center relative">
+                                <div class="group flex flex-col items-center text-center relative lg:order-4">
                                     <div class="relative w-20 h-20 mb-5">
                                         <div class="absolute inset-0 bg-green-100 rounded-2xl -rotate-12 group-hover:-rotate-6 transition-transform duration-500"></div>
                                         <div class="absolute inset-0 bg-white rounded-2xl shadow-sm border border-green-50 flex items-center justify-center transition-transform duration-500 group-hover:-translate-y-2">
@@ -259,44 +259,26 @@
                                     </div>
                                 </div>
 
-                                <!-- Step 5 (Row 2 Start) -->
-                                <div class="group flex flex-col items-center text-center relative">
+                                <!-- Step 5 -->
+                                <div class="group flex flex-col items-center text-center relative lg:order-8">
                                     <div class="relative w-20 h-20 mb-5">
-                                        <div class="absolute inset-0 bg-green-100 rounded-2xl rotate-12 group-hover:rotate-3 transition-transform duration-500"></div>
+                                        <div class="absolute inset-0 bg-green-100 rounded-2xl -rotate-6 group-hover:rotate-12 transition-transform duration-500"></div>
                                         <div class="absolute inset-0 bg-white rounded-2xl shadow-sm border border-green-50 flex items-center justify-center transition-transform duration-500 group-hover:-translate-y-2">
                                             <svg class="w-8 h-8 text-brand-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
                                             </svg>
                                         </div>
                                     </div>
                                     <div class="flex flex-col gap-1">
-                                        <span class="text-[10px] font-extrabold text-brand-primary uppercase tracking-[0.2em]">Bước 08</span>
-                                        <h3 class="text-[14px] font-bold text-brand-text">Hoàn thiện</h3>
+                                        <span class="text-[10px] font-extrabold text-brand-primary uppercase tracking-[0.2em]">Bước 05</span>
+                                        <h3 class="text-[14px] font-bold text-brand-text">Thu thập dữ liệu</h3>
                                     </div>
-                                    <!-- Connector -->
-                                    <div class="hidden md:block absolute top-10 right-[70%] w-full h-px border-t border-dashed border-green-200"></div>
+                                    <!-- Connector pointing left to Step 6 -->
+                                    <div class="hidden lg:block absolute top-10 right-[70%] w-full h-px border-t border-dashed border-green-200"></div>
                                 </div>
 
                                 <!-- Step 6 -->
-                                <div class="group flex flex-col items-center text-center relative">
-                                    <div class="relative w-20 h-20 mb-5">
-                                        <div class="absolute inset-0 bg-green-100 rounded-2xl -rotate-3 group-hover:-rotate-12 transition-transform duration-500"></div>
-                                        <div class="absolute inset-0 bg-white rounded-2xl shadow-sm border border-green-50 flex items-center justify-center transition-transform duration-500 group-hover:-translate-y-2">
-                                            <svg class="w-8 h-8 text-brand-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                    <div class="flex flex-col gap-1">
-                                        <span class="text-[10px] font-extrabold text-brand-primary uppercase tracking-[0.2em]">Bước 07</span>
-                                        <h3 class="text-[14px] font-bold text-brand-text">Viết kết quả</h3>
-                                    </div>
-                                    <!-- Connector -->
-                                    <div class="hidden md:block absolute top-10 right-[70%] w-full h-px border-t border-dashed border-green-200"></div>
-                                </div>
-
-                                <!-- Step 7 -->
-                                <div class="group flex flex-col items-center text-center relative">
+                                <div class="group flex flex-col items-center text-center relative lg:order-7">
                                     <div class="relative w-20 h-20 mb-5">
                                         <div class="absolute inset-0 bg-green-100 rounded-2xl rotate-6 group-hover:rotate-0 transition-transform duration-500"></div>
                                         <div class="absolute inset-0 bg-white rounded-2xl shadow-sm border border-green-50 flex items-center justify-center transition-transform duration-500 group-hover:-translate-y-2">
@@ -309,23 +291,41 @@
                                         <span class="text-[10px] font-extrabold text-brand-primary uppercase tracking-[0.2em]">Bước 06</span>
                                         <h3 class="text-[14px] font-bold text-brand-text">Phân tích dữ liệu</h3>
                                     </div>
-                                    <!-- Connector -->
-                                    <div class="hidden md:block absolute top-10 right-[70%] w-full h-px border-t border-dashed border-green-200"></div>
+                                    <!-- Connector pointing left to Step 7 -->
+                                    <div class="hidden lg:block absolute top-10 right-[70%] w-full h-px border-t border-dashed border-green-200"></div>
                                 </div>
 
-                                <!-- Step 8 -->
-                                <div class="group flex flex-col items-center text-center relative">
+                                <!-- Step 7 -->
+                                <div class="group flex flex-col items-center text-center relative lg:order-6">
                                     <div class="relative w-20 h-20 mb-5">
-                                        <div class="absolute inset-0 bg-green-100 rounded-2xl -rotate-6 group-hover:rotate-12 transition-transform duration-500"></div>
+                                        <div class="absolute inset-0 bg-green-100 rounded-2xl -rotate-3 group-hover:-rotate-12 transition-transform duration-500"></div>
                                         <div class="absolute inset-0 bg-white rounded-2xl shadow-sm border border-green-50 flex items-center justify-center transition-transform duration-500 group-hover:-translate-y-2">
                                             <svg class="w-8 h-8 text-brand-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path>
                                             </svg>
                                         </div>
                                     </div>
                                     <div class="flex flex-col gap-1">
-                                        <span class="text-[10px] font-extrabold text-brand-primary uppercase tracking-[0.2em]">Bước 05</span>
-                                        <h3 class="text-[14px] font-bold text-brand-text">Thu thập dữ liệu</h3>
+                                        <span class="text-[10px] font-extrabold text-brand-primary uppercase tracking-[0.2em]">Bước 07</span>
+                                        <h3 class="text-[14px] font-bold text-brand-text">Viết kết quả</h3>
+                                    </div>
+                                    <!-- Connector pointing left to Step 8 -->
+                                    <div class="hidden lg:block absolute top-10 right-[70%] w-full h-px border-t border-dashed border-green-200"></div>
+                                </div>
+
+                                <!-- Step 8 -->
+                                <div class="group flex flex-col items-center text-center relative lg:order-5">
+                                    <div class="relative w-20 h-20 mb-5">
+                                        <div class="absolute inset-0 bg-green-100 rounded-2xl rotate-12 group-hover:rotate-3 transition-transform duration-500"></div>
+                                        <div class="absolute inset-0 bg-white rounded-2xl shadow-sm border border-green-50 flex items-center justify-center transition-transform duration-500 group-hover:-translate-y-2">
+                                            <svg class="w-8 h-8 text-brand-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="flex flex-col gap-1">
+                                        <span class="text-[10px] font-extrabold text-brand-primary uppercase tracking-[0.2em]">Bước 08</span>
+                                        <h3 class="text-[14px] font-bold text-brand-text">Hoàn thiện</h3>
                                     </div>
                                 </div>
                             </div>
@@ -339,7 +339,7 @@
                             <h2 class="text-[20px] font-bold text-brand-text tracking-tight">Học theo đối tượng</h2>
                         </div>
 
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 2xl:grid-cols-3 gap-6">
 
                             <!-- Card 1 -->
                             <div
@@ -491,7 +491,7 @@
                                 Cập nhật liên tục
                             </div>
                         </div>
-                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 2xl:grid-cols-3 gap-6">
                             <!-- We will generate 6 cards to match the layout -->
 
                             <!-- Loop Item -->
@@ -723,10 +723,10 @@
                 </main>
 
                 <!-- RIGHT COLUMN (Sidebar in Content) -->
-                <aside class="xl:w-[320px] shrink-0 flex flex-col gap-6">
+                <aside class="xl:w-[280px] 2xl:w-[320px] w-full shrink-0 flex flex-col lg:flex-row xl:flex-col gap-6">
 
                     <!-- Tài nguyên nổi bật -->
-                    <div class="bg-white rounded-2xl border border-brand-border/50 p-6 shadow-soft">
+                    <div class="bg-white rounded-2xl border border-brand-border/50 p-6 shadow-soft flex-1 min-w-[300px]">
                         <h3 class="text-[16px] font-bold text-brand-text mb-4">Tài nguyên nổi bật</h3>
 
                         <div class="flex flex-col gap-4">
@@ -782,7 +782,7 @@
                     </div>
 
                     <!-- Xem nhiều nhất -->
-                    <div class="bg-white rounded-2xl border border-brand-border/50 p-6 shadow-soft">
+                    <div class="bg-white rounded-2xl border border-brand-border/50 p-6 shadow-soft flex-1 min-w-[300px]">
                         <h3 class="text-[16px] font-bold text-brand-text mb-4">Xem nhiều nhất</h3>
 
                         <div class="flex flex-col gap-4">
